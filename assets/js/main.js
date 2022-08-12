@@ -5,7 +5,7 @@ let lastScroll = 0;
 window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
 
-    if (currentScroll <= 0) {
+    if (currentScroll <= 50) {
         header.classList.remove('scroll-down', 'scroll-header');
     }
 
@@ -49,22 +49,6 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 navButton.forEach(n => n.addEventListener('click', linkAction))
-
-
-
-/*=============== SWIPER POPULAR ===============*/
-var swiperPopular = new Swiper(".popular__container", {
-    spaceBetween: 32,
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: 'auto',
-    loop: true,
-
-    pagination: {
-      el: ".swiper-pagination",
-      dynamicBullets: true,
-    },
-  });
 
 /*=============== VALUE ACCORDION ===============*/
 const accordionItems = document.querySelectorAll('.value__accordion-item');

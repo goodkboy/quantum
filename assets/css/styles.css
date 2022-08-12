@@ -896,10 +896,6 @@ body.dark-theme {
   right: -10px;
 }
 
-.request__form {
-  
-}
-
 .request__input {
   display: block;
   height: 65px;
@@ -1088,7 +1084,7 @@ body.dark-theme {
 
   .nav__menu {
     margin-left: 1rem;
-    margin-right: 1rem;
+    padding-right: 1rem;
   }
 
   .section {
