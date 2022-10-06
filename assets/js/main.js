@@ -139,4 +139,10 @@ themeButton.addEventListener('click', () => {
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
-})
+});
+
+/*=============== SCROLL REVEAL ===============*/
+ScrollReveal({ reset: true,
+               duaration: 2000, 
+               delay: 400 });
+ScrollReveal().reveal('.home__title', { delay: 500 });

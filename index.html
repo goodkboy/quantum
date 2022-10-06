@@ -11,9 +11,6 @@
     <!--=============== BOXICONS ===============-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
-
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/css/styles.css">
 
@@ -38,19 +35,19 @@
 
                     <li class="nav__item">
                         <a href="#pros" class="nav__link">
-                            <span>Преимущества</span>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#value" class="nav__link">
                             <span>О нас</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <span>Контакты</span>
+                        <a href="#value" class="nav__link">
+                            <span>Преимущества</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qa" class="nav__link">
+                            <span>Частые вопросы</span>
                         </a>
                     </li>
                 </ul>
@@ -67,7 +64,7 @@
             </div>
 
             <!-- Theme change button -->
-            <!-- <i class='bx bx-moon change-theme' id="theme-button"></i> -->
+            <!-- <i class='bx bx-moon change-theme' id="theme-button"></i>  -->
 
             <button class="button nav__button">
                 <a href="#request" class="button__link">Связаться</a>
@@ -125,31 +122,83 @@
             </div>
         </section>
 
-        <!--==================== LOGOS ====================-->
-        <!-- <section class="logos section">
-            <div class="logos__container container grid">
-                <div class="logos__img">
-                    <img src="./assets/img/logo1.png" alt="logo-1">
-                </div>
-
-                <div class="logos__img">
-                    <img src="./assets/img/logo2.png" alt="logo-2">
-                </div>
-
-                <div class="logos__img">
-                    <img src="./assets/img/logo3.png" alt="logo-3">
-                </div>
-
-                <div class="logos__img">
-                    <img src="./assets/img/logo4.png" alt="logo-4">
-                </div>
-            </div>
-        </section> -->
-
         <!--==================== PROS ====================-->
         <section class="pros section" id="pros">
             <div class="pros__container container grid">
+                <h1 class="section__title">
+                    Что мы вам предоставляем <span>?</span>
+                </h1>
+
                 <div class="pros__content">
+                    <div class="pros__box">
+                        <div class="pros__icon">
+                            <i class='bx bxs-credit-card pros__icon-icon'></i>
+                        </div>
+
+                        <div class="pros__info">
+                            <h3 class="pros__info-title">Высокий доход</h3>
+                            <p class="pros__info-description">
+                                Заработок каждые 2 недели от 350.000тг до 5 миллионов тг
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pros__box">
+                        <div class="pros__icon">
+                            <i class='bx bx-calendar pros__icon-icon' ></i>
+                        </div>
+
+                        <div class="pros__info">
+                            <h3 class="pros__info-title">Гибкий график</h3>
+                            <p class="pros__info-description">
+                                Можно совмещать учебу, хобби и т.д. На выбор 3 смены - утренняя, вечерняя, ночная.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pros__box">
+                        <div class="pros__icon">
+                            <i class='bx bxs-home-alt-2 pros__icon-icon'></i>
+                        </div>
+
+                        <div class="pros__info">
+                            <h3 class="pros__info-title">Бесплатное жилье</h3>
+                            <p class="pros__info-description">
+                                Мы заботимся о наших моделях предоставляя комфортные апартаменты.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pros__content">
+                    <div class="pros__box">
+                        <div class="pros__icon">
+                            <i class='bx bxl-sketch pros__icon-icon'></i>
+                        </div>
+
+                        <div class="pros__info">
+                            <h3 class="pros__info-title">Конкурсы</h3>
+                            <p class="pros__info-description">
+                                За хорошие результаты дарим iPhone 13 pro max, бриллиантовые украшения и многое другое.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pros__box">
+                        <div class="pros__icon">
+                            <i class='bx bxs-book pros__icon-icon'></i>
+                        </div>
+
+                        <div class="pros__info">
+                            <h3 class="pros__info-title">Опыт не важен</h3>
+                            <p class="pros__info-description">
+                                Бесплатно обучаем, выбрав нас вы гарантируете себе высокий заработок.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="pros__content">
                     <div class="pros__img">
                         <img src="./assets/img/money.png" class="pros__img-img" alt="money-img">
                     </div>
@@ -187,11 +236,12 @@
                             🔥 3 смены на выбор.
                         </span>
                     </div>
-                </div>
+                </div> -->
 
                  <!-- <img src="./assets/img/bgline.png" class="pros__line" alt="bgline">  -->
             </div>
         </section> 
+        
 
         <!--==================== VALUE ====================-->
         <section class="value section" id="value">
@@ -206,17 +256,16 @@
 
                 <div class="value__content">
                     <div class="value__data">
-                        <span class="section__subtitle">Наша ценность</span>
+                        <span class="section__subtitle">1 - Преимущества</span>
                         <h2 class="section__title">
-                            Почему именно мы <span>?</span>
+                            Рекомендуем сотрудничать с нами <span>если:</span>
                         </h2>
                         <p class="value__description">
-                            Мы всегда готовы предоставить лучшие условия для вас.
-                            Частые тренинги, конкурсы, обучение и рост.
+                            
                         </p>
                     </div>
 
-                    <div class="value__accordion">
+                    <!-- <div class="value__accordion">
                         <div class="value__accordion-item">
                             <header class="value__accordion-header">
                                 <i class='bx bxs-shield-x value__accordion-icon'></i>
@@ -295,6 +344,42 @@
                                 </p>
                             </div>
                         </div>
+                    </div> -->
+                    <div class="value__box">
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Хочешь совмещать учебу, хобби, личную жизнь  
+                        </p>
+
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Не можешь найти работу с достойным заработком 
+                        </p>
+
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Не хочешь выслушивать нравоучения начальства 
+                        </p>
+
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Устала от рутины и хочешь расширить круг общения 
+                        </p>
+
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Хочешь прокачать себя как личность  
+                        </p>
                     </div>
                 </div>
             </div>
@@ -313,101 +398,44 @@
 
                 <div class="contact__content">
                     <div class="content__data">
-                        <span class="section__subtitle">Контакты</span>
+                        <span class="section__subtitle">2 - Преимущства</span>
                         <h2 class="section__title">
-                            Свяжитесь с нами<span>.</span>
+                            Выбрав <span>нас</span> ты гарантируешь себе:   
                         </h2>
                         <p class="contact__description">
-                            Is there a problem finding your dream home? Need a 
-                            guide in buying first home? or need a consultation 
-                            on residential issues? just contact us.
+                            Мы всегда готовы предоставить лучшие условия для вас.
+                            Частые тренинги, конкурсы, обучение и рост.
                         </p>
                     </div>
 
-                    <div class="contact__card">
-                        <div class="contact__card-box">
-                            <div class="contact__card-info">
-                                <i class='bx bxl-whatsapp'></i>
-    
-                                <div>
-                                    <h3 class="contact__card-title">
-                                        Телефон
-                                    </h3>
-                                    <p class="contact__card-description">
-                                        +7(707)743-14-00
-                                    </p>
-                                </div>
-                            </div>
-							
-							<a href="https://wa.me/77077431400"> 
-								<button class="button contact__card-button">
-                              		Написать
-                            	</button> 
-							</a>
-    
-                           
-                        </div>
-    
-                        <div class="contact__card-box">
-                            <div class="contact__card-info">
-                                <i class='bx bxl-whatsapp'></i>
-    
-                                <div>
-                                    <h3 class="contact__card-title">
-                                        Телефон
-                                    </h3>
-                                    <p class="contact__card-description">
-                                        +7(771)978-83-83
-                                    </p>
-                                </div>
-                            </div>
-    
-                            <a href="https://wa.me/77719788383"> 
-								<button class="button contact__card-button">
-                              		Написать
-                            	</button> 
-							</a>
-                        </div>
-    
-                        <div class="contact__card-box">
-                            <div class="contact__card-info">
-                                <i class='bx bxl-instagram' ></i>
-    
-                                <div>
-                                    <h3 class="contact__card-title">
-                                        Instagram
-                                    </h3>
-                                    <p class="contact__card-description">
-                                        Quantum agency
-                                    </p>
-                                </div>
-                            </div>
-    
-                            <a href="instagram.com/quantum_agency_kz"> 
-								<button class="button contact__card-button">
-                              		Написать
-                            	</button> 
-							</a>
-                        </div>
-    
-                        <div class="contact__card-box">
-                            <div class="contact__card-info">
-                                <i class='bx bxs-envelope' ></i>
-    
-                                <div>
-                                    <h3 class="contact__card-title">
-                                        Почта
-                                    </h3>
-                                    <p class="contact__card-description">
-                                        quantum@bk.ru
-                                    </p>
-                                </div>
-                            </div>
-    
-                            <button class="button contact__card-button">
-                                Связаться
-                            </button>
-                        </div>
+                    <div class="value__box">
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Высокий заработок, наши модели зарабатывают в среднем от 1.000.000 тг  
+                        </p>
+
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Поддержку 24/7, тренинги, конкурсы 
+                        </p>
+
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Топовое оборудование, компьютер, вебкамеру, освещение и многое другое  
+                        </p>
+
+                        <p class="value__text">
+                            <span class="value__text-dot">
+                                •
+                            </span>
+                            Комфортабельные апартаменты, бесплатно предоставим жилье
+                        </p>
                     </div>
                 </div>
             </div>
@@ -422,9 +450,91 @@
                 <p class="subscribe__description">
                     Начни менять свою жизнь уже сейчас, оставь заявку и мы с вами свяжемся !
                 </p>
-                <button class="button subscribe__button ">
-                    Оставить заявку
+                <button class="button subscribe__button " >
+                    <a href="#request">Оставить заявку</a>
                 </button>
+            </div>
+        </section>
+
+        <section class="qa section" id="qa">
+            <div class="qa__container container">
+                <h1 class="section__title"><span>Часто</span> задаваемые вопросы</h1>
+
+                <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <h3 class="value__accordion-title">
+                                    Какие требования предъявляются к моделям ?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bx-plus'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Мы ищем симпатичных девушек в возрасте от 18 до 30 лет, или старше 30 лет – в индивидуальном порядке. <br>
+                                    Обязательна ухоженная внешность, приветствуется креативность, харизма.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <h3 class="value__accordion-title">
+                                    Что нужно будет делать в процессе работы ?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bx-plus'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Во время трансляции тебе нужно будет общаться с клиентами на свободные темы, внося элементы эротики 
+                                    или проводить различные перформансы. Желательно проявлять творческие способности и стараться создать свой собственный уникальный стиль, который поможет привлечь посетителей.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <h3 class="value__accordion-title">
+                                    Безопасно ли работать ?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bx-plus'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Мы работем только через зарубежные адреса и весь СНГ находится в блокировке. <br> 
+                                    Гарантируем вашу ананимность. Так же нам доверяют более 400+ моделей по всему Казахстану.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <h3 class="value__accordion-title">
+                                    Можно ли работать без знания английского языка ?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bx-plus'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Знание английского приветствуется, но если его у тебя нет то не проблема, для вас мы предоставим квалифицированного онлайн переводчика  
+                                    общаясь с клиентами без особых усилий.
+                                </p>
+                            </div>
+                        </div>
+
+                        
+                    </div>
             </div>
         </section>
 
@@ -589,7 +699,8 @@
     </a>
 
     <!--=============== SCROLLREVEAL ===============-->
-    <script src=""></script>
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="./assets/js/main.js"></script>
